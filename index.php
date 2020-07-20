@@ -99,7 +99,14 @@
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>About</h2>
-          <p>
+          <p class="text-left text-padding">
+            I am a <strong>Software Engineer</strong> from Kochi, India having 2+ years of experience in developing web
+            and mobile
+            based application . I used to develop back-end components, connect the application with the
+            other (often third-party) web services, and support the front-end developers by integrating their work
+            with the Node. js application.
+          </p>
+          <p class="text-left text-margin">
             <b>I truly believe that work shouldn't feel like work. </b>Life is
             simply far too short to be bored or miserable (or both) for such a
             large portion of the time you spend awake. You deserve to have a
@@ -115,7 +122,7 @@
           <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>Software Engineer</h3>
             <p class="font-italic">
-              Software Engineer from kochi, specialized in nodejs server side
+              Specialized in nodejs server side
               coding. I help startup companies and local businesses to setup
               their online presence with custom websites and applications. I
               like working with people and organizations who dare to change
@@ -138,7 +145,7 @@
                   </li>
                   <li>
                     <i class="icofont-rounded-right"></i>
-                    <strong>City:</strong> City : Kochi, India
+                    <strong>City:</strong> Kochi, India
                   </li>
                 </ul>
               </div>
@@ -146,7 +153,7 @@
                 <ul>
                   <li>
                     <i class="icofont-rounded-right"></i>
-                    <strong>Age:</strong> 25
+                    <strong>Nationality:</strong> Indian
                   </li>
                   <li>
                     <i class="icofont-rounded-right"></i>
@@ -156,21 +163,17 @@
                     <i class="icofont-rounded-right"></i>
                     <strong>Email:</strong> steephenvrs3@gmail.com
                   </li>
-                  <li>
+                  <!-- <li>
                     <i class="icofont-rounded-right"></i>
                     <strong>Freelance:</strong> Available
-                  </li>
+                  </li> -->
                 </ul>
               </div>
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis
-              optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-              accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et
-              consectetur qui quia repellendus itaque neque. Aliquid amet
-              quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-              culpa magni laudantium dolores.
+              Developing low-latency, high-availability, and performant application backend architecturing and data
+              storage
+              solution integration with security and data protection.
             </p>
           </div>
         </div>
@@ -822,8 +825,9 @@
     <div class="container">
       <h3>Steephen Varghese</h3>
       <p>
-        Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni
-        eligendi fuga maxime saepe commodi placeat.
+        You might not think that programmers are artists, but programming is an extremely creative profession.
+        It's logic-based creativity.
+
       </p>
       <div class="social-links">
         <a href="https://twitter.com/steephenvrs3" class="twitter"><i class="bx bxl-twitter"></i></a>
