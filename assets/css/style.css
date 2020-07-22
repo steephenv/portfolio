@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
+  width: 100%
 }
 
 a {
@@ -144,7 +145,8 @@ h6 {
 
 @media (min-width: 992px) {
   #main {
-    margin-left: 100px;
+    margin: 0 auto;
+    width: 80%;
   }
 }
 
@@ -360,7 +362,7 @@ section {
 }
 
 .section-title h2::before {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 120px;
@@ -371,7 +373,7 @@ section {
 }
 
 .section-title h2::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   width: 40px;
@@ -482,7 +484,7 @@ section {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
-  transition: .9s;
+  transition: 0.9s;
   background-color: #088da2;
 }
 
@@ -1201,4 +1203,65 @@ section {
 
 .text-padding {
   padding-bottom: 10px;
+}
+
+.blog-img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.blog-text-container p {
+  text-align: justify;
+  line-height: 1.7rem;
+}
+
+.blog-text-container h3 {
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: #078da2;
+}
+
+.blog-text-container ul li {
+  padding: 0.5rem;
+}
+
+.blog-title {
+  margin-bottom: 1.5rem
+}
+
+.prof-img {
+  border-radius: 50%;
+}
+
+.avatar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar-title {
+  font-size: 1rem
+}
+
+.avatar-image {
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.link-container {
+  align-items: center;
+  display: flex;
+}
+
+.avatar-date {
+  font-size: .8rem;
+}
+
+.list-container {
+  width: calc(100% - 40px)
+}
+
+.blog-link {
+  cursor: pointer;
 }
