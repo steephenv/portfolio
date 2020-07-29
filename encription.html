@@ -163,89 +163,90 @@
                         <h4> Y Z A B C...
                         </h4>
                     </div>
-                    <div class="row">
+                </div>
+                <div class="row">
 
-                        <div class="col-lg-12 blog-text-container list-container">
-                            <h3>Modern Ciphers & Cipher Suites
-                            </h3>
-                            <p> It’s no different at the digital level. The math is far more complicated now – no human
-                                could do it efficiently – but the concept is still the same. It’s all just math. Now
-                                let’s apply what we learned about algorithms in general to SSL/TLS and HTTPS
-                                connections.
-                                An HTTPS connection is actually a fairly complicated process.consider TLS handshake ,
-                                This is the process where a client and server agree on a mutually support cipher suite
-                                and then use the chosen cipher suite to negotiate a secure connection.
-                                Part of what makes the handshake so complicated is that it leverages several different
-                                cryptographic functions to achieve the HTTPS connection. During the handshake, the
-                                client and server will use ,
-                            </p>
+                    <div class="col-lg-12 blog-text-container list-container">
+                        <h3>Modern Ciphers & Cipher Suites
+                        </h3>
+                        <p> It’s no different at the digital level. The math is far more complicated now – no human
+                            could do it efficiently – but the concept is still the same. It’s all just math. Now
+                            let’s apply what we learned about algorithms in general to SSL/TLS and HTTPS
+                            connections.
+                            An HTTPS connection is actually a fairly complicated process.consider TLS handshake ,
+                            This is the process where a client and server agree on a mutually support cipher suite
+                            and then use the chosen cipher suite to negotiate a secure connection.
+                            Part of what makes the handshake so complicated is that it leverages several different
+                            cryptographic functions to achieve the HTTPS connection. During the handshake, the
+                            client and server will use ,
+                        </p>
 
-                            <ol>
-                                <li>
-                                    A key exchange algorithm
-                                </li>
-                                <li>
-                                    A bulk encryption cipher
-                                </li>
-                                <li>
-                                    A digital signature scheme
-                                </li>
-                                <li>
-                                    A Hash/MAC function
-                                </li>
-                            </ol>
-                            <p> These ciphers all work together at various points to perform authentication, key
-                                generation and exchange and a check-sum to ensure integrity.
-                            </p>
-                            <p>In order to determine what specific algorithms to use, the client and server start by
-                                deciding on a cipher suite to use. Cipher suites are collections of these algorithms
-                                that can work together to perform the handshake and the encryption/decryption that
-                                follows. At the outset of the connection both parties share a list of supported cipher
-                                suites and then decide on the most secure, mutually supported suite.
-                            </p>
+                        <ol>
+                            <li>
+                                A key exchange algorithm
+                            </li>
+                            <li>
+                                A bulk encryption cipher
+                            </li>
+                            <li>
+                                A digital signature scheme
+                            </li>
+                            <li>
+                                A Hash/MAC function
+                            </li>
+                        </ol>
+                        <p> These ciphers all work together at various points to perform authentication, key
+                            generation and exchange and a check-sum to ensure integrity.
+                        </p>
+                        <p>In order to determine what specific algorithms to use, the client and server start by
+                            deciding on a cipher suite to use. Cipher suites are collections of these algorithms
+                            that can work together to perform the handshake and the encryption/decryption that
+                            follows. At the outset of the connection both parties share a list of supported cipher
+                            suites and then decide on the most secure, mutually supported suite.
+                        </p>
 
-                            <p>Today, thanks to computer technology and the internet we can now practice public key
-                                cryptography. With public key cryptography, one public key is used to encrypt and the
-                                other private key is used to decrypt. You see this during the SSL handshake, where
-                                they’ve solved the historically risky issues with physical key exchange by using the
-                                publicly available key to encrypt a symmetric session key and send it back to the server
-                                for decryption by its private key. Well, you don’t actually see it, but you catch my
-                                drift.
-                            </p>
-                            <p>Today, the most common forms of encryption are:</p>
-                            <p><strong> Asymmetric Encryption </strong> – This is the Public Key example we just gave.
-                                One key
-                                encrypts,
-                                the other key decrypts. The encryption only goes one way. This is the concept that forms
-                                the foundation for PKI (public key infrastructure), which is the trust model that
-                                undergirds SSL/TLS.
-                            </p>
-                            <p><strong>Symmetric Encryption </strong> – This is closer to a form of private key
-                                encryption. Each
-                                party has
-                                its own key that can both encrypt and decrypt. As we discussed in the example above,
-                                after the asymmetric encryption that occurs in the SSL handshake, the browser and server
-                                communicate using the symmetric session key that is passed along.
-                            </p>
-                            <p>some of the modern encryption algorithms are:
-                            </p>
-                            <ul>
-                                <li> AES (Advanced Encryption Standard)
-                                </li>
-                                <li> RSA (Rivest-Shamir-Adlemen)
-                                </li>
-                                <li> ECC (Elliptic Curve Cryptography)
-                                </li>
-                                <li> PGP (Pretty Good Privacy)
-                                </li>
-                            </ul>
-                            <p> encryption is a two-way function. You encrypt information with the intention of
-                                decrypting it later. So, correspondence with someone online, protecting your cloud data
-                                or transmitting financial data are all examples of times when encryption is appropriate.
-                            </p>
-                        </div>
+                        <p>Today, thanks to computer technology and the internet we can now practice public key
+                            cryptography. With public key cryptography, one public key is used to encrypt and the
+                            other private key is used to decrypt. You see this during the SSL handshake, where
+                            they’ve solved the historically risky issues with physical key exchange by using the
+                            publicly available key to encrypt a symmetric session key and send it back to the server
+                            for decryption by its private key. Well, you don’t actually see it, but you catch my
+                            drift.
+                        </p>
+                        <p>Today, the most common forms of encryption are:</p>
+                        <p><strong> Asymmetric Encryption </strong> – This is the Public Key example we just gave.
+                            One key
+                            encrypts,
+                            the other key decrypts. The encryption only goes one way. This is the concept that forms
+                            the foundation for PKI (public key infrastructure), which is the trust model that
+                            undergirds SSL/TLS.
+                        </p>
+                        <p><strong>Symmetric Encryption </strong> – This is closer to a form of private key
+                            encryption. Each
+                            party has
+                            its own key that can both encrypt and decrypt. As we discussed in the example above,
+                            after the asymmetric encryption that occurs in the SSL handshake, the browser and server
+                            communicate using the symmetric session key that is passed along.
+                        </p>
+                        <p>some of the modern encryption algorithms are:
+                        </p>
+                        <ul>
+                            <li> AES (Advanced Encryption Standard)
+                            </li>
+                            <li> RSA (Rivest-Shamir-Adlemen)
+                            </li>
+                            <li> ECC (Elliptic Curve Cryptography)
+                            </li>
+                            <li> PGP (Pretty Good Privacy)
+                            </li>
+                        </ul>
+                        <p> encryption is a two-way function. You encrypt information with the intention of
+                            decrypting it later. So, correspondence with someone online, protecting your cloud data
+                            or transmitting financial data are all examples of times when encryption is appropriate.
+                        </p>
                     </div>
                 </div>
+
                 <div class="row">
                     <div class="col-lg-12 blog-text-container blog-img-container">
                         <!-- <h3>Work Flow:
