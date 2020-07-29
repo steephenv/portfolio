@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title> Encryption and Hashing Blog</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: MyResume - v2.1.0
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <main id="main">
+
+        <!-- ======= Portfolio Details ======= -->
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="blog-title">
+                            Encryption and Hashing
+                        </h1>
+                    </div>
+                </div>
+                <div class="row mt-2 mb-3" onclick="goto('index.html')">
+                    <div class="col-md-9">
+                        <div class="avatar">
+                            <div class="avatar-image">
+                                <img src="assets/img/steephen.jpg" alt="Avatar" class="prof-img" width="70" height="70">
+                            </div>
+                            <div>
+                                <span class="avatar-title"> Steephen Varghese</span>
+                                <div class="avatar-date"> 30-07-2020</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 link-container">
+                        <div class="social-links">
+                            <a href="https://twitter.com/steephenvrs3" class="twitter"><i
+                                    class="bx bxl-twitter"></i></a>
+                            <a href="https://www.facebook.com/steephen.varghese/about" class="facebook"><i
+                                    class="bx bxl-facebook"></i></a>
+                            <a href="https://www.instagram.com/steephenn_varghese/?hl=en" class="instagram"><i
+                                    class="bx bxl-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/steephen-varghese-5a6973158/" class="linkedin"><i
+                                    class="bx bxl-linkedin"></i></a>
+                            <a href="https://in.pinterest.com/steephenv/boards/" class="pinterest-alt"><i
+                                    class="bx bxl-pinterest-alt"></i></a>
+                            <a href="https://github.com/steephenv/" class="github"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 blog-text-container blog-img-container">
+                        <p>
+                            You might have encountered terms like encryption, hashing, salting, keys etc. let’s get our
+                            basics right with these terms and how encryption and hashing
+                            is an integral part of any application you use or see
+                            let’s talk about the difference between encryption and hashing ,
+
+                        </p>
+
+                        <img src="assets/img/cover.jpg" class="img-fluid mb-4" alt="">
+                        <p>
+                            <strong> What is Encryption ? and Why Encryption
+                            </strong><br />
+                            To put it simply, encryption is the process of using a code to stop other parties from
+                            accessing information. When data has been encrypted, only those who have the key can access
+                            it. As long as a sufficiently complicated system is used, and it’s used correctly, then
+                            attackers are prevented from seeing the data.
+
+                            Data is encrypted with encryption algorithms, which are also known as ciphers. One of the
+                            most important distinctions between encryption and hashing (which we will get to later) is
+                            that encryption is designed to go both ways. This means that once something has been
+                            encrypted with a key, it can also be decrypted.
+
+                            This makes encryption useful in a range of situations, such as for securely storing or
+                            transferring information. Once data has been encrypted properly, it is considered secure and
+                            can only be accessed by those who have the key.
+                            Encryption is scrambling information in a way that only someone with a corresponding
+                            key can unscramble and read it. Encryption is a two-way function. When you encrypt
+                            something,
+                            you’re doing so with the intention of decrypting it later.<br />
+                            To encrypt data you use something called a cipher, which is an algorithm ,
+                            a series of well-defined steps that can be followed procedurally
+                            – to encrypt and decrypt information. The algorithm can also be called the encryption key.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 blog-text-container list-container">
+                        <h3> Encryption Working Concept
+                        </h3><br />
+                        <strong> Cipher Suites ( Basic understanding )
+
+                        </strong><br /><br />
+
+                        <p>A cipher is really just an algorithm, or a set of steps that are used to perform a specific
+                            mathematical function –
+                            be that encryption, hashing or digital signatures. Ciphers have always had a basis in math.
+                        </p>
+                        <p>lets take Caesar’s cipher to explain some basic concepts that will be useful for us when we
+                            get into modern cipher suites.
+                            Anyway, that original unencrypted piece of data would be referred to as the plaintext, as
+                            it’s easily readable in its raw form.
+                            After the encryption process has been performed, it becomes a piece of ciphertext and should
+                            ideally be unreadable to anyone without the private key.
+                        </p>
+                        <p>Encryption is performed by keys, but it’s important to square how keys and algorithms/ciphers
+                            are been used.
+                            The algorithm or cipher used is just that, it’s a sequence of steps that must be used to
+                            encrypt the plaintext.
+                            Depending on the cryptosytem, either the values within that algorithm, or the value the
+                            algorithm arrives at itself, are the keys.
+                            The algorithms are the general principles/rules used by a given cryptosystem, the keys are
+                            what actually performs the function.
+                        </p>
+                        <p>it’s best to illustrate with an example so let’s go back to Caesar’s cipher and illustrate.
+                            In Caesar’s cipher, the actual algorithm is:</p>
+                        <h3>e ( x ) = ( x + k ) ( mod 26 ) </h3>
+
+                        <p> where x represents the raw input, in this case x refers to whatever letter we’re shifting ,
+                            e(x) represents the encrypted value , k represents the key, mod represents the modulus
+                        </p>
+                        <p>In Caesar’s cipher, the key is simply the number of spaces you decide to shift the letters.
+                            So, in the example below the key would be 3. We’re shifting everything three spaces forward.
+                        </p>
+                        <h3> e ( x ) = ( x + 3 ) ( mod 26 ) </h3>
+                        <h4>A B C D E... (x3)</h4>
+                        <p>Now let’s add in the modulus. Modular arithmetic wraps around after it reaches the modulus,
+                            which is basically the end of the line, the number cap – however you want to think about it.
+                            With the alphabet, the modulus is obviously 26. There are 26 letters, so if you want to move
+                            a “Y” three spaces forward you have to wrap around and start back at 1 (or A) again. So in
+                            this instance, the equation would be B = (Y + 3)(mod 26).
+                        </p>
+                        <h4> Y Z A B C...
+                        </h4>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-lg-12 blog-text-container list-container">
+                            <h3>Modern Ciphers & Cipher Suites
+                            </h3>
+                            <p> It’s no different at the digital level. The math is far more complicated now – no human
+                                could do it efficiently – but the concept is still the same. It’s all just math. Now
+                                let’s apply what we learned about algorithms in general to SSL/TLS and HTTPS
+                                connections.
+                                An HTTPS connection is actually a fairly complicated process.consider TLS handshake ,
+                                This is the process where a client and server agree on a mutually support cipher suite
+                                and then use the chosen cipher suite to negotiate a secure connection.
+                                Part of what makes the handshake so complicated is that it leverages several different
+                                cryptographic functions to achieve the HTTPS connection. During the handshake, the
+                                client and server will use ,
+                            </p>
+
+                            <ol>
+                                <li>
+                                    A key exchange algorithm
+                                </li>
+                                <li>
+                                    A bulk encryption cipher
+                                </li>
+                                <li>
+                                    A digital signature scheme
+                                </li>
+                                <li>
+                                    A Hash/MAC function
+                                </li>
+                            </ol>
+                            <p> These ciphers all work together at various points to perform authentication, key
+                                generation and exchange and a check-sum to ensure integrity.
+                            </p>
+                            <p>In order to determine what specific algorithms to use, the client and server start by
+                                deciding on a cipher suite to use. Cipher suites are collections of these algorithms
+                                that can work together to perform the handshake and the encryption/decryption that
+                                follows. At the outset of the connection both parties share a list of supported cipher
+                                suites and then decide on the most secure, mutually supported suite.
+                            </p>
+
+                            <p>Today, thanks to computer technology and the internet we can now practice public key
+                                cryptography. With public key cryptography, one public key is used to encrypt and the
+                                other private key is used to decrypt. You see this during the SSL handshake, where
+                                they’ve solved the historically risky issues with physical key exchange by using the
+                                publicly available key to encrypt a symmetric session key and send it back to the server
+                                for decryption by its private key. Well, you don’t actually see it, but you catch my
+                                drift.
+                            </p>
+                            <p>Today, the most common forms of encryption are:</p>
+                            <p><strong> Asymmetric Encryption </strong> – This is the Public Key example we just gave.
+                                One key
+                                encrypts,
+                                the other key decrypts. The encryption only goes one way. This is the concept that forms
+                                the foundation for PKI (public key infrastructure), which is the trust model that
+                                undergirds SSL/TLS.
+                            </p>
+                            <p><strong>Symmetric Encryption </strong> – This is closer to a form of private key
+                                encryption. Each
+                                party has
+                                its own key that can both encrypt and decrypt. As we discussed in the example above,
+                                after the asymmetric encryption that occurs in the SSL handshake, the browser and server
+                                communicate using the symmetric session key that is passed along.
+                            </p>
+                            <p>some of the modern encryption algorithms are:
+                            </p>
+                            <ul>
+                                <li> AES (Advanced Encryption Standard)
+                                </li>
+                                <li> RSA (Rivest-Shamir-Adlemen)
+                                </li>
+                                <li> ECC (Elliptic Curve Cryptography)
+                                </li>
+                                <li> PGP (Pretty Good Privacy)
+                                </li>
+                            </ul>
+                            <p> encryption is a two-way function. You encrypt information with the intention of
+                                decrypting it later. So, correspondence with someone online, protecting your cloud data
+                                or transmitting financial data are all examples of times when encryption is appropriate.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 blog-text-container blog-img-container">
+                        <!-- <h3>Work Flow:
+            </h3> -->
+                        <img src="assets/img/what-is-encryption.png" class="img-fluid mb-4" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 blog-text-container list-container">
+                        <h3> Hashing </h3>
+                        <p>Hashing is the practice of using an algorithm to map data of any size to a fixed length. This
+                            is called a hash value. Whereas encryption is a two-way function, hashing is a one-way
+                            function. While it’s technically possible to reverse-hash something, the computing power
+                            required makes it unfeasible. Hashing is one-way.
+                            Now, whereas encryption is meant to protect data in transit, hashing is used to verify file
+                            or piece of data. In other words, it serves as a check-sum.</p>
+                        <p>Here’s how it works, each hashing algorithm outputs at a fixed length. So for instance, you
+                            may hear about SHA-256, that means that the algorithm is going to output a hash value that
+                            is 256 bits, usually represented by a 64 character hexadecimal string.
+                            Every hash value is unique. If two different files produce the same unique hash value this
+                            is called a collision and it makes the algorithm essentially useless.</p>
+                        <p>here’s an example of hashing, let’s say you want to digitally sign a piece of software and
+                            make it available for download on your website. To do this, you’re going to create a hash of
+                            the script or executable you’re signing, then after adding your digital signature you’ll
+                            hash that, too. Following this, the whole thing is encrypted so it can be downloaded.
+                        </p>
+                        <p>When a customer downloads the software, their browser is going to decrypt the file, then
+                            inspect the two unique hash values. The browser will then run the same hash function, using
+                            the same algorithm, and hash both the file and the signature again. If the browser produces
+                            the same hash value then it knows that both the signature and the file are authentic and
+                            they have not been altered.
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-12 blog-text-container blog-img-container">
+                                <!-- <h3>Work Flow:
+                        </h3> -->
+                                <img src="assets/img/download.png" class="img-fluid mb-4" alt="">
+                            </div>
+                        </div>
+
+                        <ul>
+                            <li><strong> They are one-way functions </strong>– This means that there is no practical way
+                                to figure out
+                                what the original input was from a given hash value.
+                            </li>
+                            <li> <strong> It’s unlikely for two inputs to have the same hash value </strong>– While it
+                                is possible for two
+                                different inputs to be the same hash value, the chances of this happening are so
+                                small that we don’t really worry about it. For practical purposes, hash values can be
+                                considered unique.
+                            </li>
+                            <li> <strong> The same input always delivers the same result </strong>– Every time you put
+                                the same
+                                information into a given hash function, it will always deliver the same output.
+                            </li>
+                            <li> <strong>Even the slightest change gives a completely different result</strong> – If
+                                even a
+                                single
+                                character is altered, the hash value will be vastly different. PGP (Pretty Good
+                                Privacy)
+                            </li>
+                        </ul>
+
+                        <p>Some of the Common Hashing Algorithms are MD4 , MD5 , SHA (SHA stands for Security Hashing
+                            Algorithm and it’s probably best known as the hashing algorithm used in most SSL/TLS cipher
+                            suite), RIPEMD , WHIRLPOOL , TIGER.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 blog-text-container list-container">
+                        <h3> Salting </h3>
+                        <p>Salting is a concept that typically pertains to password hashing. Essentially, it’s a unique
+                            value that can be added to the end of the password to create a different hash value. This
+                            adds a layer of security to the hashing process, specifically against brute force attacks. A
+                            brute force attack is where a computer or number of Internet-connected devices attempt every
+                            possible combination of letters and numbers until the password is found.
+                            when salting, the additional value is referred to as a “salt.”</p>
+                        <p>The idea is that by adding a salt to the end of a password and then hashing it, you’ve
+                            essentially complicated the password cracking process.
+                        </p>
+                        <p>Say the password I want to salt looks like this:
+                        </p>
+                        <p> <strong> 7X57CKG72JVNSSS9</strong>
+                        </p>
+                        <p>Your salt is just the word SALT
+                        </p>
+                        <p>Before hashing, you add SALT to the end of the data. So, it would look like this:
+                        </p>
+                        <p> <strong> 7X57CKG72JVNSSS9SALT</strong>
+                        </p>
+                        <div class="row">
+                            <div class="col-lg-12 blog-text-container blog-img-container">
+                                <!-- <h3>Work Flow:
+                            </h3> -->
+                                <img src="assets/img/images.png" class="img-fluid mb-4" alt="">
+                            </div>
+                        </div>
+                        <p>The hash value is different than it would be for just the plain unsalted password. Even the
+                            slightest variation to the data being hashed will result in a different unique hash value.
+                            By salting your password you’re essentially hiding its real hash value by adding an
+                            additional bit of data and altering it
+                        </p>
+                    </div>
+                </div>
+
+        </section><!-- End Portfolio Details -->
+
+    </main><!-- End #main -->
+    <footer id="footer">
+        <div class="container">
+            <h3>Steephen Varghese</h3>
+            <p>
+                The greatest thing in this world is not so much where we stand, as in what direction we are moving.
+            </p>
+            <div class="social-links">
+                <a href="https://twitter.com/steephenvrs3" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/steephen.varghese/about" class="facebook"><i
+                        class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/steephenn_varghese/?hl=en" class="instagram"><i
+                        class="bx bxl-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/steephen-varghese-5a6973158/" class="linkedin"><i
+                        class="bx bxl-linkedin"></i></a>
+                <a href="https://in.pinterest.com/steephenv/boards/" class="pinterest-alt"><i
+                        class="bx bxl-pinterest-alt"></i></a>
+                <a href="https://github.com/steephenv/" class="github"><i class="bx bxl-github"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; Copyright <strong><span>steephen.me</span></strong>. All Rights Reserved
+            </div>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: [license-url] -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/ -->
+                Designed with ♥ steephen varghese
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
