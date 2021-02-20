@@ -10,7 +10,9 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  /* color: #272829; */
+  color: #6ac2d0;
+  background-color: #1a1d2d;
   width: 100%
 }
 
@@ -174,7 +176,8 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #f2f3f5;
+  /* background: #f2f3f5; */
+  background: #addaf3;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -276,7 +279,8 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  /* background: rgba(255, 255, 255, 0.8); */
+  background: rgb(160 216 243 / 80%);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -358,7 +362,8 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  /* color: #45505b; */
+  color: #81a0bf;
 }
 
 .section-title h2::before {
@@ -393,7 +398,8 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #484848;
+  /* color: #484848; */
+  color: #81a0bf;
 }
 
 .about .content ul {
@@ -469,7 +475,8 @@ section {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  /* color: #45505b; */
+  color: #81a0bf;
 }
 
 .skills .progress .skill .val {
@@ -518,7 +525,8 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  /* background: #f7f8f9; */
+  background: #2b304a;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -714,7 +722,8 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  /* background: #fff; */
+  background: #202840;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -753,7 +762,8 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #45505b;
+  /* color: #45505b; */
+  color: #e9ecef;
   transition: ease-in-out 0.3s;
 }
 
@@ -925,7 +935,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background: #1a1d2d;
 }
 
 .contact .info i {
@@ -971,7 +981,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background: #1a1d2d;
 }
 
 .contact .php-email-form .form-group {
@@ -1143,7 +1153,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  /* background: #f7f8f9; */
+  background: #addaf3;
   color: #45505b;
   font-size: 14px;
   text-align: center;
